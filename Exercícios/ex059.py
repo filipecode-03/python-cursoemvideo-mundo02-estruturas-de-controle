@@ -11,10 +11,22 @@ while op != 5:
     elif op == 2:
         soma = v1 * v2
         print(f'O resultado de {v1} x {v2} é {soma}')
+        print('=-=' * 10)
     elif op == 3:
         if v1 > v2:
             print(f'Entre {v1} e {v2} o maior valor {v1}')
+            print('=-=' * 10)
         if v2 > v1:
             print(f'Entre {v1} e {v2} o maior valor {v2}')
-    elif op == 
-print('saiu do programa')
+            print('=-=' * 10)
+    elif op == 4:
+        print('=-=' * 10)
+        print('Informe os números novamente:')
+        v1 = int(input('Primeiro valor: '))
+        v2 = int(input('Segundo valor: '))
+    elif op > 5:
+        print('Opção inválida. Tente novamente')
+        print('=-=' * 10)
+print('Finalizando...')
+print('=-=' * 10)
+print('Fim do programa! Volte sempre!')
